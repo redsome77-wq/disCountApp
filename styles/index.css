@@ -1,0 +1,51 @@
+/* index.css */
+#app {
+    background-color: aliceblue;
+    border-radius: 20px;
+    max-width: 420px;
+    min-width: 320px; margin: 10px auto;
+    height: 95vh;
+    text-align: center;
+    padding: 40px 0;
+}
+#app header {
+    font-size: 1.25rem;
+}
+#app header p {
+    margin: 20px;
+}
+#app header p h1 {
+    width: 80px; margin: 20px auto;
+}
+#app header p h1 img {
+    width: 100%;
+}
+#app main {
+    background-color:rgb(255, 255, 255);
+    margin: 0 25px; padding: 30px;
+    margin-top: 20px;
+}
+#app main h2 {
+    font-size: 0.85rem;
+}
+#app main h2 p {}
+#app main p #money {
+    background-color: rgb(0, 114, 38);
+    width: 200px; height: 40px; border-radius: 10px; text-align: center;
+    color: #fff;
+    margin-top: 5px;
+}
+#app main p #result {
+    background-color: rgb(0, 0, 0);
+    width: 200px; height: 40px; border-radius: 10px; text-align: center;
+    margin: 5px 0;
+    font-weight: 600;
+    color: #ffee00;
+}
+#app main .discount {
+    margin: 30px 0 0;
+}
+#app main .discount li {
+    line-height: 1.7; border-bottom: 1px dotted #ddd;
+}
+#app main .reset {}
