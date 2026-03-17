@@ -6,8 +6,8 @@
 //DOM 변수
 const productPrice = document.querySelector('#money');
 const showBtn = document.querySelector('#result');
-const resultSlot = document.querySelectorAll ('.discount > li');
-const resetBtn = document.querySelectorAll ('.reset');
+const resultSlot = document.querySelectorAll('.discount > li');
+const resetBtn = document.querySelector('.reset');
 
 //console 확인
 console.log(productPrice, showBtn, resultSlot, resetBtn);
@@ -42,8 +42,6 @@ function resetAll(){
     resultSlot[5].textContent = '';
     resultSlot[6].textContent = '';
 }
-
-
 
 //console.log(disCountFunc(productPrice.value));
 
